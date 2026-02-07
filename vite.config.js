@@ -8,6 +8,11 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    open: true
+    open: true,
+    strictPort: false
+  },
+  preview: {
+    port: 3000,
+    strictPort: false
   }
 });
