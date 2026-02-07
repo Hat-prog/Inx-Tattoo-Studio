@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/inx-tattoo-studio/', 
+  base: '/Inx-Tattoo-Studio/', 
   build: {
     outDir: 'dist',
     assetsDir: 'assets'
